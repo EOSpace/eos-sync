@@ -14,7 +14,7 @@ services:
       MONGODB_ROOT_PASSWORD: 111222
       MONGODB_DATABASE: EOS
   nodeosd:
-    image: noprom/eosmainnet:v1.1.4
+    image: noprom/eosmainnet:v1.1.6
     command: /start_nodeosd.sh
     hostname: nodeosd
     stop_grace_period: 10m
